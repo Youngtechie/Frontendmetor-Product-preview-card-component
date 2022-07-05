@@ -110,7 +110,7 @@ button:hover{
 
 @media (min-width: 1440px) {
 	body{
-		font-size: 19px;
+		font-size: 14px;
 	}
 	.container{
 		display: flex;
