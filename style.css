@@ -55,6 +55,9 @@ body{
 .head, .pra, .amount,.button{
 	padding-left: 15px;
 }
+.perfume, .pra, .del_amount{
+  color: hsl(228, 12%, 48%);
+}
 .amount{
 	display: flex;
 	flex-flow: row wrap;
@@ -115,15 +118,17 @@ button:hover{
 	.container{
 		display: flex;
 		flex-flow: column wrap;
-		background-color: hsl(0, 0%, 100%);
+    align-items: center;
+    justify-content: center;
 		border-radius: 10px;
+    height: 900px;
 	}
 	.border{
 		display: flex;
 		flex-flow: row wrap;
-		width: 100%;
-		height: 900px;
-		background-color: hsl(30, 38%, 92%);
+		width: 630px;
+		background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
 	}
 	.pic1{
 		display: none;
@@ -137,8 +142,9 @@ button:hover{
 		margin-top: 0;
 		margin-left: -10px;
 		z-index: 1;
-		width: 290px;
-		background-color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%);
+		width: 280px;
+    height: 100%;
 	}
 	.perfume{
 		padding: 30px 15px 10px 15px;
